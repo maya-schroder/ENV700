@@ -7841,7 +7841,7 @@ Date: Fall 2026
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 1.1 Import Packages</span>
@@ -7871,7 +7871,7 @@ Date: Fall 2026
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 1.2 Set project folders using relative paths</span>
@@ -7907,7 +7907,7 @@ Date: Fall 2026
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 1.3 Create file path variables</span>
@@ -7936,7 +7936,7 @@ Date: Fall 2026
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 1.4 Read data into dataframes</span>
@@ -7965,7 +7965,7 @@ Date: Fall 2026
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 1.5 Report the dimensions of each dataset</span>
@@ -7980,7 +7980,7 @@ Date: Fall 2026
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>((9519, 21), (9466, 21), (9752, 22), (10184, 22))</pre>
 </div>
@@ -8018,7 +8018,7 @@ Date: Fall 2026
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Convert the Date column to DateTime objects</span>
@@ -8047,7 +8047,7 @@ Min Date 2025: 2025-01-01 00:00:00, Max Date 2025: 2025-12-31 00:00:00
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>(None, None)</pre>
 </div>
@@ -8073,18 +8073,15 @@ Min Date 2025: 2025-01-01 00:00:00, Max Date 2025: 2025-12-31 00:00:00
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 2.2 Subset columns</span>
-<span class="n">o3_2024_df_sub</span> <span class="o">=</span> <span class="n">o3_2024_df</span><span class="p">[</span>
-    <span class="p">[</span><span class="s1">'Date'</span><span class="p">,</span> <span class="s1">'Daily AQI Value'</span><span class="p">,</span> <span class="s1">'Local Site Name'</span><span class="p">,</span> <span class="s1">'AQS Parameter Description'</span><span class="p">,</span> <span class="s1">'County'</span><span class="p">,</span> <span class="s1">'Site Latitude'</span><span class="p">,</span> <span class="s1">'Site Longitude'</span><span class="p">]]</span>
-<span class="n">o3_2025_df_sub</span> <span class="o">=</span> <span class="n">o3_2025_df</span><span class="p">[</span>
-    <span class="p">[</span><span class="s1">'Date'</span><span class="p">,</span> <span class="s1">'Daily AQI Value'</span><span class="p">,</span> <span class="s1">'Local Site Name'</span><span class="p">,</span> <span class="s1">'AQS Parameter Description'</span><span class="p">,</span> <span class="s1">'County'</span><span class="p">,</span> <span class="s1">'Site Latitude'</span><span class="p">,</span> <span class="s1">'Site Longitude'</span><span class="p">]]</span>
-<span class="n">PM25_2024_df_sub</span> <span class="o">=</span> <span class="n">PM25_2024_df</span><span class="p">[</span>
-    <span class="p">[</span><span class="s1">'Date'</span><span class="p">,</span> <span class="s1">'Daily AQI Value'</span><span class="p">,</span> <span class="s1">'Local Site Name'</span><span class="p">,</span> <span class="s1">'AQS Parameter Description'</span><span class="p">,</span> <span class="s1">'County'</span><span class="p">,</span> <span class="s1">'Site Latitude'</span><span class="p">,</span> <span class="s1">'Site Longitude'</span><span class="p">]]</span>
-<span class="n">PM25_2025_df_sub</span> <span class="o">=</span> <span class="n">PM25_2025_df</span><span class="p">[</span>
-    <span class="p">[</span><span class="s1">'Date'</span><span class="p">,</span> <span class="s1">'Daily AQI Value'</span><span class="p">,</span> <span class="s1">'Local Site Name'</span><span class="p">,</span> <span class="s1">'AQS Parameter Description'</span><span class="p">,</span> <span class="s1">'County'</span><span class="p">,</span> <span class="s1">'Site Latitude'</span><span class="p">,</span> <span class="s1">'Site Longitude'</span><span class="p">]]</span>
+<span class="n">column_subset</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'Date'</span><span class="p">,</span> <span class="s1">'Daily AQI Value'</span><span class="p">,</span> <span class="s1">'Local Site Name'</span><span class="p">,</span> <span class="s1">'AQS Parameter Description'</span><span class="p">,</span> <span class="s1">'County'</span><span class="p">,</span> <span class="s1">'Site Latitude'</span><span class="p">,</span> <span class="s1">'Site Longitude'</span><span class="p">]</span>
+<span class="n">o3_2024_df_sub</span> <span class="o">=</span> <span class="n">o3_2024_df</span><span class="p">[</span><span class="n">column_subset</span><span class="p">]</span>
+<span class="n">o3_2025_df_sub</span> <span class="o">=</span> <span class="n">o3_2025_df</span><span class="p">[</span><span class="n">column_subset</span><span class="p">]</span>
+<span class="n">PM25_2024_df_sub</span> <span class="o">=</span> <span class="n">PM25_2024_df</span><span class="p">[</span><span class="n">column_subset</span><span class="p">]</span>
+<span class="n">PM25_2025_df_sub</span> <span class="o">=</span> <span class="n">PM25_2025_df</span><span class="p">[</span><span class="n">column_subset</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -8109,7 +8106,7 @@ Min Date 2025: 2025-01-01 00:00:00, Max Date 2025: 2025-12-31 00:00:00
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 2.3 Update values</span>
@@ -8150,7 +8147,7 @@ Min Date 2025: 2025-01-01 00:00:00, Max Date 2025: 2025-12-31 00:00:00
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 3.1 Ensure column are same across all dataframes</span>
@@ -8188,7 +8185,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>(None, None)</pre>
 </div>
@@ -8214,7 +8211,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 3.2 Concatentate &amp; report shape</span>
@@ -8231,7 +8228,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>(38921, 7)</pre>
 </div>
@@ -8256,7 +8253,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 3.3 View a sample of data</span>
@@ -8271,7 +8268,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8440,7 +8437,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Generate a list of local site names common to all 4 dataframes</span>
@@ -8462,7 +8459,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>{'Bryson City',
  'Castle Hayne',
@@ -8488,7 +8485,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 4.1 Subset for records with sites in common</span>
@@ -8505,7 +8502,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>(18778, 7)</pre>
 </div>
@@ -8534,7 +8531,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 4.2 Group and summarize data, then report its dimensions</span>
@@ -8560,7 +8557,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>(17017, 7)</pre>
 </div>
@@ -8585,7 +8582,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 4.3 Calculate year and month columns</span>
@@ -8607,7 +8604,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8726,7 +8723,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 4.4 Spread data so Ozone, PM2.5 daily AQI valiues occupy separate columns</span>
@@ -8751,7 +8748,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[46]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8882,7 +8879,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 5.1 Save the file</span>
@@ -8924,7 +8921,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 6.1 Generate a summary table and show its first 5 records</span>
@@ -8949,7 +8946,7 @@ PM2.5 2025 columns: Index(['Date', 'Daily AQI Value', 'Local Site Name',
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[49]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
